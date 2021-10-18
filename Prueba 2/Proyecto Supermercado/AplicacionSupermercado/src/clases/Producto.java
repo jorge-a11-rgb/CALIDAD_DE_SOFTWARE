@@ -1,4 +1,4 @@
-package cl.prueba2.poo;
+package clases;
 
 public abstract class Producto implements IMontos {
 

@@ -1,4 +1,4 @@
-package cl.prueba2.poo;
+package clases;
 
 import java.util.ArrayList;
 import java.util.List;

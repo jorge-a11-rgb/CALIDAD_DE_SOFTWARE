@@ -5,6 +5,7 @@
  */
 package aplicacionsupermercado;
 
+import clases.*;
 /**
  *
  * @author Trabajo y Duoc

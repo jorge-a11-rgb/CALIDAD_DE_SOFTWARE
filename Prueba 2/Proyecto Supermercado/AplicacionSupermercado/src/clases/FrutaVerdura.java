@@ -1,4 +1,4 @@
-package cl.prueba2.poo;
+package clases;
 
 public class FrutaVerdura extends Producto {
 	
