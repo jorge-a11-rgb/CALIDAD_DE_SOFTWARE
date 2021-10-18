@@ -15,7 +15,18 @@ public class AplicacionSupermercado {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //crear objetos
+        Carne carne1 = new Carne(10, "Vetado", 7000, 'A', 20);
+        FrutaVerdura fruta1 = new FrutaVerdura(160, "manzana", 2000, "verde");
+
+        //obtener total
+        System.out.println("Total: $" + carne1.calcularTotalPago());
+
+        //mostrar atributos
+        System.out.println("-----------------");
+        System.out.println(carne1.toString());
+        System.out.println("/////////////////");
+        System.out.println(fruta1.toString());
     }
     
 }
