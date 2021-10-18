@@ -1,0 +1,17 @@
+Problemas encontrados:
+	El calculo de descuento multiplica diredctamente por el descuento sin hacer una conversion a porcentaje: 
+	Carne no tiene getters ni setters:
+	metodo toString en FrutaVerdura no muestra toda la informacion y muestra solo el tipo; que tampoco esta bien hecho ya que este deberia devolver el nombre del fruta a partir del codigo de fruta y no de insercion hardcodeada.
+	
+	Logica de descuento no esta bien implementada, ya que los descuentos estan pre-concebidos por categoria en el modelo de negocios, pero a la hora de correr el programa se ingresan manualmente y no existe filtro por categoria:
+	Metodo Hashcode y Equals es inutil ni es usado, tampoco se pide en el modelo de negocios.
+	Logica de tipo de verdura no esta acorde al modelo de negocios, esta deja escribir cualquier cosa en tipo de manera manual.
+	Metodo calcularMontoIva en FrutaVerdura no esta hecho con el metodo IVA, esta puesto de manera manual.
+	Metodo agregarProducto no respeta regla de negocios sobre no repetir por nombre, este metodo solo verifica que el objeto no se repita, pero no filtra por nombre.
+	metodo quitarProducto no esta escrito como tal, si no que esta escrito con nombre eliminarProducto,este metodo eliminar tampoco permite eliminar por nombre, sino que, simplemente elimina un producto que le llegue.
+	IMonto no tiene metodos get/set y estos se piden en el modelo de negocios para todas las clases.
+	metodos get/set de CarritoCompra no estan llamados acorde al diagrama de clases.
+	clase main() no utiliza en ningun momento metodos para listar/agregar/eliminar un producto al carrito de compras, ni la clase CarritoCompra.
+	metodo toString(), no se pide, ya que se esta pidiendo listar todos los productos del carrito, y aun asi el metodo toString(), no muestra toda la informacion requerida, lo unico que se hace en este codigo
+	es crear objetos y imprimir de manera manual sus datos, estos no se insertan en el carrito, ni se utiliza de ninguna manera el carrito durante la ejecucion del programa.
+	Objeto Lomo y manzana solo debe poderse agregar el nombre, cantidad y precios unitarios, no debe poderse ingresar de manera manual el descuento.
